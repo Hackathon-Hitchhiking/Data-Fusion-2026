@@ -51,6 +51,8 @@ roc_auc_score(y_true, y_pred, average="macro")
 
 Для решения задачи 2 “Киберполка” предлагается два наборов данных, а также пример решения задачи.
 
+Локально в этом репозитории competition parquet-файлы хранятся в [data/competition](/Users/rebelraider/python-projects/Hackatons/Data-Fusion-2026/data/competition). Скрипты сначала ищут данные там, а затем используют fallback на старый корневой layout для обратной совместимости.
+
 Важные напоминания:
 
 Расшифровка названий признаков, как и расшифровка названий целевых переменных, не предоставляется.
@@ -67,6 +69,9 @@ https://storage.yandexcloud.net/data-fusion-2026/2%20CyberShelf/sample_submit.pa
 
 ### baseline_catboost.ipynb
 https://storage.yandexcloud.net/data-fusion-2026/2%20CyberShelf/baseline_catboost.ipynb
+
+Local reference copy:
+- [baseline_catboost.ipynb](/Users/rebelraider/python-projects/Hackatons/Data-Fusion-2026/references/baseline_catboost.ipynb)
 231.5KB, ноутбук с реализацией базового решения на основе Catboost
 
 ## Тренировочные данные 

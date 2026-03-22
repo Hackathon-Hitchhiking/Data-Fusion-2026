@@ -1,0 +1,16 @@
+{
+  "base_task_dataset": {
+    "id": "chesnikovleonid/data-fusion-2026-2-task-dataset",
+    "title": "Data Fusion 2026 2 task dataset",
+    "license": "unknown",
+    "stage_dir": "output/kaggle-datasets/base-task-dataset",
+    "notes": "Large base dataset. Sync the six competition parquet files before pushing a new version."
+  },
+  "artifacts_dataset": {
+    "id": "chesnikovleonid/data-fusion-2026-2-task-artifacts",
+    "title": "Data Fusion 2026 task 2 artifacts",
+    "license": "CC0-1.0",
+    "stage_dir": "output/kaggle-datasets/task-artifacts",
+    "notes": "Preferred target for aggregated parquet artifacts used by Kaggle notebooks."
+  }
+}

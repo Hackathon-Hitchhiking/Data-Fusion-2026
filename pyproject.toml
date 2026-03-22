@@ -1,0 +1,22 @@
+[project]
+name = "data-fusion-2026"
+version = "0.1.0"
+description = "EDA and high-score training pipeline for Data Fusion 2026 CyberShelf"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "polars>=1.22",
+  "pyarrow>=17.0",
+  "scikit-learn>=1.5",
+  "lightgbm>=4.5",
+  "catboost>=1.2.7",
+  "optuna>=4.1",
+  "matplotlib>=3.9",
+  "seaborn>=0.13",
+  "tqdm>=4.66",
+]
+
+[tool.uv]
+package = false
